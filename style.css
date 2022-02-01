@@ -1,0 +1,36 @@
+html {
+  background: black url(background.jpg) center center no-repeat;
+ background-size:cover; color:white;}
+
+
+body{
+  display: grid;
+  place-items: center;
+  margin: 0;
+  font-family: Inter,Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.container{
+  margin: 2vh;
+  background: rgba(79, 109, 245, 0.8);
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5em;
+}
+header{ }
+  .Avatar{ dispaly:block;float:left;width: 100px;; height:auto;margin: 0 1em 0 0;border-radius: 50%;}
+ .TitlulPaginii{ dispaly:block; margin:0; font-size: clamp(2rem, 5vw, 4rem); line-height: 1em;}
+
+
+ main{
+
+ }
+        .listalinkuri{ display: block; margin: 0; padding: 0; border-top: 1px; solid: #fff; }
+         .listaItem{display: block; margin: 0; padding: 0; border-bottom: 1px solid #fff; }
+           .ListaLink{display: block;padding: 0,5em color #fff; text-decoration:none;}
+           .ListaLink:hover{ background: white;color:black;}
+               .ListaTitlu,.ListaText{display:block; margin:0; padding:0;font-size: 1em; line-height: 1.5em;}
+                .ListaText { white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
